@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Josefin+Sans&display=swap');
+
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+li,
+aside,
+footer,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body {
+  background-color: #f2dcf2;
+  font-family: 'Catamaran', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #1d1395;
+}
+
+nav,
+footer {
+  background-color: #8dbfa1;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  padding-top: 20px;
+  height: 50px;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding-top: 40px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+h2 {
+  padding-top: 30px;
+  margin-left: 15px;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+main li:hover {
+  border: 2px solid white;
+}
+
+.navbar ul {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 10px;
+  justify-content: right;
+  justify-items: center;
+  font-size: 1.5em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 5em;
+}
+
+.hero-text h2 {
+  font-size: 1.5em;
+}
+
+.drinks {
+  background-color: #cc8ecc;
+  padding-bottom: 60px;
+}
+
+.drinks h2 {
+  font-size: 3em;
+}
+
+.drinks li {
+  border-top: 1px dotted white;
+  padding-top: 40px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+h3.beverage {
+  font-size: 1.5em;
+}
+
+.beverage::before {
+  font: var(--fa-font-solid);
+  content: '\f57b';
+}
